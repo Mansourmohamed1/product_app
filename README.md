@@ -29,19 +29,16 @@ A clean and modern **Product Detail Screen** built with Flutter and Dart.
 ## 📂 Project Structure
 
 ```text
-lib/
+├── 📁 lib
+│   ├── 📁 core
+│   │   └── 📄 appColors.dart
+│   ├── 📁 screen
+│   │   └── 📄 productDetailPage.dart
+│   └── 📄 main.dart
 │
-├── main.dart
-│
-├── productDetailPage.dart
-│
-└── core/
-    └── appColors.dart
-│
-assets/
-│
-└── images/
-    ├── apple.jpg
-    └── image.png
+├── 📁 assets
+│   └── 📁 images
+│       ├── 🖼️ apple.jpg
+│       └── 🖼️ image.png
 │
 └── README.md
